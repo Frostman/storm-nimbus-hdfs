@@ -1,4 +1,4 @@
-(defproject storm-nimbus-hdfs "0.1.0-wip1"
+(defproject storm-nimbus-hdfs "0.1.0-wip2"
   :source-path "src/clj"
   :test-path "test/clj"
   :java-source-path "src/jvm"
@@ -17,7 +17,7 @@
                 ]
   :dev-dependencies [
                      [org.clojure/clojure "1.4.0"]
-                     [org.clojars.frostman/storm "0.8.2-wip11-storage"]
+                     [org.clojars.frostman/storm "0.8.2-wip15-storage"]
                      [log4j/log4j "1.2.16"]
                     ]
   :aot :all
